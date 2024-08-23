@@ -1,0 +1,19 @@
+header{
+   
+    nav{
+        display: flex;
+       align-items: center;
+       margin-top: 32px;
+    }
+    ul{
+        margin-left: auto;
+        display: flex;
+       column-gap: $base * 8;
+       margin-right: $base * 6;
+       a{
+        font-size: 20px;
+        font-weight: 700;
+       }
+    }
+   
+}

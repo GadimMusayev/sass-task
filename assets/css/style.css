@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #1c223a;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px 12px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+header ul {
+  margin-left: auto;
+  display: flex;
+  column-gap: 32px;
+  margin-right: 24px;
+}
+header ul a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-flex;
+}
+
+.btn-success {
+  background-color: #02ad88;
+  text-transform: uppercase;
+  transition: 0.2s;
+  padding: 12px 28px;
+  color: white;
+  box-shadow: 0px 10px 30px 0px rgba(2, 173, 136, 0.4);
+}
+
+.btn-success:hover {
+  background-color: #02876a;
+}
+
+.btn-rounded {
+  border-radius: 40px;
+}
+
+.banner {
+  background-image: url(/assets/images/bg-1.png);
+  height: calc(100vh - 70px);
+  background-size: cover;
+}
+.banner-row {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+.banner-content {
+  width: 45%;
+}
+.banner-content h1 {
+  font-size: 44px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  margin: 12px 0px;
+}
+.banner-content h5 {
+  font-size: 26px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+}
+.banner-content p {
+  margin-bottom: 20px;
+  line-height: 2;
+}
+.banner img {
+  width: 50%;
+}
+.banner-action {
+  display: flex;
+  column-gap: 20px;
+}

@@ -1,0 +1,38 @@
+.banner{
+    background-image: url(/assets/images/bg-1.png);
+    height:calc(100vh - 70px);
+    background-size: cover;
+  
+    &-row{
+        height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+    }
+    &-content{
+        width: 45%;
+        h1{
+            font-size: 44px;
+            font-family: $font-dosis;
+            font-weight:500;
+            margin: 12px 0px;
+        }
+        h5{
+            font-size: 26px;
+            font-family: $font-dosis;
+            font-weight: 300;
+        }
+        p{
+          margin-bottom: 20px;
+          line-height: 2;
+        }
+    }
+    img{
+        width: 50%;
+    }
+     &-action{
+        display: flex;
+        column-gap: $base * 5;
+     }
+}
